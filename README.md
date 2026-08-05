@@ -115,17 +115,17 @@
 
 ## About Text Examples
 
-### Using {BOTNAME} placeholder (auto-replaced with actual bot name):
+### Using {Vishi-MD} placeholder (auto-replaced with actual bot name):
 ```
 .setabout ⚡ {BOTNAME} | Running 24/7 | Ultra Speed Mode
 ```
-If bot name is "Raviya Bot", about becomes:
+If bot name is "saviya bot", about becomes:
 ```
-⚡ Raviya Bot | Running 24/7 | Ultra Speed Mode
+⚡ Saviya bot | Running 24/7 | Ultra Speed Mode
 ```
 
 ### Styles:
-- **simple**: `⚡ Raviya Bot | Running 24/7`
+- **simple**: `⚡ saviya bot| Running 24/7`
 - **advanced**: Multi-line with time, uptime, and bot name
 - **dynamic**: Single line with all info
 
@@ -135,7 +135,7 @@ If bot name is "Raviya Bot", about becomes:
 
 1. Install dependencies: `npm install`
 2. Set MongoDB URI: `export MONGODB_URI=your_mongodb_uri`
-3. Set owner number: Edit `config.js` → `OWNER_NUMBER`
+3. Set owner number: Edit `config.js` → `+94763288949`
 4. Start bot: `npm start`
 5. Visit `http://localhost:3000` to pair your number
 6. Enter the pairing code in WhatsApp
@@ -149,7 +149,7 @@ All settings in `config.js`:
 - `PREFIX` - Command prefix (default: `.`)
 - `OWNER_NUMBER` - Your WhatsApp number
 - `WORK_TYPE` - public/private/inbox/groups
-- `BOT_NAME` - Default bot name
+- `BOT_NAME` - Vishi MD
 - `STATUS_TIMER_ENABLED` - Enable status timer
 - `STATUS_TIMER_INTERVAL` - Minutes between posts
 - `STATUS_VIDEO_ENABLED` - Enable video status
@@ -170,4 +170,4 @@ All settings in `config.js`:
 
 ---
 
-**Powered by Ultra Advanced Bot Base V2.0**
+**Powered by saviya V2.0**
